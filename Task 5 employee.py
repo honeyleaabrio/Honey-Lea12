@@ -10,7 +10,7 @@ class Employee:
     def display_employee(self):
         print(f"Employee Name: {self.name}")
         print(f"Position: {self.position}")
-        print(f"Salary: ${self.salary}")
+        print(f"Salary: ₱{self.salary}")
 
 employee1 = Employee("Honey Lea Abrio", "Software Engineer", 45000)
 
