@@ -31,7 +31,7 @@ class BankAccount:
 account = BankAccount(account_number="0945621459", owner="Honey Lea")
 
 # Perform transactions
-account.deposit(5000)     # Deposit $500
-account.withdraw(1200)    # Withdraw $200
+account.deposit(5000)     # Deposit ₱500
+account.withdraw(1200)    # Withdraw ₱200
 account.withdraw(4000)    # Try to withdraw more than available
 account.display_balance()  # Display the current balance
